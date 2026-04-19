@@ -1,0 +1,126 @@
+{
+    "_說明": "wolves_api 統一 API 設定檔 — base_url 每筆含 url / type（webapi=fish_server_webapi, xg=fish_xg_webapi）",
+    "_更新時間": "2026-04-14",
+
+    "games": {
+        "cutfish": {
+            "api_dir" : "cutfishapi",
+            "api_key" : "a4b945421a72dffc79657f984e7caad7"
+        },
+        "fish3d": {
+            "api_dir" : "fish3dapi",
+            "api_key" : "50d40fced6f44ce8f814bb2ce76ea4b8"
+        },
+        "king": {
+            "api_dir" : "kingapi",
+            "api_key" : "5d1d5c699e85b86f14e3a4392ada8d3e"
+        },
+        "twoyeah": {
+            "api_dir" : "twoyeahapi",
+            "api_key" : "e75ad2f8d51788658b327324a20b0fa4"
+        },
+        "twxw": {
+            "api_dir" : "taiwanxw",
+            "api_key" : "1b89c093ed918c26ab84fb76c06c797b"
+        },
+        "egypt": {
+            "api_dir": "egypt",
+            "api_key": "61b824d4e9794ea8b4764090622811a6"
+        },
+        "pirate": {
+            "api_dir": "pirate",
+            "api_key": "ae4dc8f2f98b40078d702d0c0422b462"
+        },
+        "magiclamp": {
+            "api_dir": "magiclamp",
+            "api_key": "316870fa91574e7cb2b661d2ea8f6021"
+        }
+    },
+    "base_url": {
+        "dev": {
+            "url": "https://api-cny-buyu.95gpk.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_dev": {
+            "url": "https://api-clownfish.66dada88.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "webapi"
+        },
+        "uat": {
+            "url": "https://api-cny-buyu.thothgaming.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_uat": {
+            "url": "https://api-marlin.66dada88.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "webapi"
+        },
+        "prod_cny": {
+            "url": "https://api.188ging.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "prod_vnd": {
+            "url": "https://langson.188ging.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "prod_php": {
+            "url": "https://davao.188ging.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_prod_twd": {
+            "url": "https://api-mackerel.madadagaming.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_prod_cny": {
+            "url": "https://api-sturgeon.dada-gaming.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_prod_php": {
+            "url": "https://api-tilapia.madadagaming.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_prod_myr": {
+            "url": "https://api-empurau.madadagaming.com",
+            "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+            "type": "webapi"
+        },
+        "xg_single_dev": {
+            "url": "https://wallet-locah.95gpk.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "xg"
+        },
+        "xg_single_dev_webapi": {
+            "url": "https://gameapi-locah.95gpk.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "webapi"
+        },
+        "xg_single_uat": {
+            "url": "https://wallet-snapper.95gpk.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "xg"
+        },
+        "xg_single_uat_webapi": {
+            "url": "https://gameapi-snapper.95gpk.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "webapi"
+        },
+        "xg_single_prod": {
+            "url": "https://wallet-arowana.madadagaming.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "xg"
+        },
+        "xg_single_prod_webapi": {
+            "url": "https://gameapi-arowana.madadagaming.com",
+            "games" : ["egypt", "pirate", "magiclamp"],
+            "type": "webapi"
+        }
+    }
+}

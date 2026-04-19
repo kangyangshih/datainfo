@@ -1,0 +1,63 @@
+{
+    "_說明": "工具頁的分頁設定 — online_multi（多環境維護操作）專用。改完存檔後下次 request 自動熱載入，不用重啟。",
+    "_更新時間": "2026-04-17",
+
+    "online_multi": {
+        "tabs": [
+            {
+                "key": "dev",
+                "label": "dev",
+                "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+                "envs": ["dev"]
+            },
+            {
+                "key": "xg_dev",
+                "label": "xg_dev",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_dev"]
+            },
+            {
+                "key": "xg_single_dev",
+                "label": "xg_single_dev",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_single_dev_webapi"]
+            },
+            {
+                "key": "uat",
+                "label": "uat",
+                "games" : ["twoyeah"],
+                "envs": ["uat"]
+            },
+            {
+                "key": "xg_uat",
+                "label": "xg_uat",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_uat"]
+            },
+            {
+                "key": "xg_single_uat",
+                "label": "xg_single_uat",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_single_uat_webapi"]
+            },
+            {
+                "key": "tg_prod",
+                "label": "TG 線上",
+                "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
+                "envs": ["prod_cny", "prod_vnd", "prod_php"]
+            },
+            {
+                "key": "xg_prod",
+                "label": "XG 線上",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_prod_cny", "xg_prod_twd", "xg_prod_php"]
+            },
+            {
+                "key": "xg_single",
+                "label": "XG 免轉線上",
+                "games" : ["egypt", "pirate", "magiclamp"],
+                "envs": ["xg_single_prod"]
+            }
+        ]
+    }
+}

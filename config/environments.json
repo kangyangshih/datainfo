@@ -1,0 +1,292 @@
+{
+    "_說明": "twoyeah 專案環境設定檔 — 供 Python 工具和 Claude 查閱使用",
+    "_更新時間": "2026-03-31",
+
+    "environments": {
+        "dev": {
+            "name": "開發環境",
+            "db": {
+                "host": "211.21.0.130",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "uat": {
+            "name": "正式測試環境",
+            "db": {
+                "host": "211.21.0.130",
+                "port": 57031,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_vnd": {
+            "name": "正式環境",
+            "db": {
+                "host": "172.23.32.13",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_vnd_backup": {
+            "name": "正式環境 - 備庫",
+            "db": {
+                "host": "172.23.40.13",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_cny": {
+            "name": "正式環境",
+            "db": {
+                "host": "172.22.32.10",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_cny_backup": {
+            "name": "正式環境 CNY - 備庫",
+            "db": {
+                "host": "172.22.40.10",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_php": {
+            "name": "正式環境",
+            "db": {
+                "host": "172.23.32.16",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "prod_php_backup": {
+            "name": "正式環境",
+            "db": {
+                "host": "172.23.40.16",
+                "port": 51759,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_prod_twd": {
+            "name": "xg prod twd",
+            "db": {
+                "host": "211.21.0.138",
+                "port": 22493,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_prod_cny": {
+            "name": "xg prod cny",
+            "db": {
+                "host": "211.21.0.138",
+                "port": 23178,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_prod_php": {
+            "name": "xg prod php",
+            "db": {
+                "host": "211.21.0.138",
+                "port": 23761,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_single_dev": {
+            "name": "xg 開發環境",
+            "db": {
+                "host": "211.21.0.130",
+                "port": 53195,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_single_uat": {
+            "name": "xg正式測試環境",
+            "db": {
+                "host": "211.21.0.130",
+                "port": 53755,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        },
+        "xg_single_prod": {
+            "name": "xg 正式環境",
+            "db": {
+                "host": "211.21.0.138",
+                "port": 22848,
+                "user": "jslh",
+                "password": "jslhUTnLG4984abRmmtI"
+            },
+            "server": {
+                "host": "",
+                "ssh_port": 22,
+                "ssh_user": "",
+                "game_hall_port": "",
+                "game_match_port": ""
+            },
+            "備註": ""
+        }
+    },
+
+    "databases": {
+        "_說明": "twoyeah 開頭的資料庫用途對照",
+        "twoyeah_configdb": "遊戲設定（魚種、砲台、機率等）",
+        "twoyeah_gamedb": "遊戲運行資料",
+        "twoyeah_logdb": "日誌資料庫（playergamelog, playergamebetlog 等）",
+        "twoyeah_roledb001": "玩家角色資料（多個 roledb 結構相同）",
+        "twoyeah_globaldb": ""
+    },
+
+    "game_codes": {
+        "_說明": "遊戲類型代碼對照表",
+        "gameType": {
+            "1": "捕魚"
+        },
+        "subGameType": {
+            "1001": "",
+            "1002": "",
+            "1003": "",
+            "1004": ""
+        }
+    },
+
+    "kick_reasons": {
+        "_說明": "KickPlayerReason 踢人原因代碼",
+        "12": "PlayerReLogin（重複登入）"
+    },
+
+    "log_table_types": {
+        "_說明": "LogTableType 常數對照",
+        "15": "PlayerGameAll → playergamealllog",
+        "105": "PlayerGame → playergamelog_日期",
+        "110": "PlayerGameBet → playergamebetlog_日期"
+    },
+
+    "important_paths": {
+        "game_server_root": "/path/to/fish_server_twoyeah",
+        "logs_backup": "logs/backup/",
+        "startup_scripts": "start_*.php（共 27 個啟動腳本）"
+    },
+
+    "contacts": {
+        "_說明": "相關人員",
+        "維運": "",
+        "後端": "",
+        "前端": ""
+    }
+}
