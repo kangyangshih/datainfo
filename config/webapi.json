@@ -78,7 +78,7 @@
             "type": "webapi"
         },
         "xg_prod_cny": {
-            "url": "https://api-sturgeon.dada-gaming.com",
+            "url": "http://api-sturgeon.dada-gaming.com",
             "games" : ["cutfish", "fish3d", "king", "twoyeah", "twxw"],
             "type": "webapi"
         },
